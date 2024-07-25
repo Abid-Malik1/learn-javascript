@@ -1,26 +1,65 @@
-//Datatype conversion confusion
+// //Datatype conversion confusion
 
-let value = 22;
+// let value = 22;
  
-console.log(typeof value);
+// console.log(typeof value);
 
-let checkNumber = Number(value);
+// let checkNumber = Number(value);
 
-console.log(typeof checkNumber);
+// console.log(typeof checkNumber);
 
-console.log(checkNumber);
-
-
-let isLoggedIn = "1";
-
-let checkValue = Boolean(isLoggedIn);
-
-console.log(checkValue);
+// console.log(checkNumber);
 
 
-let userName = 33;
+// let isLoggedIn = "1";
 
-let checkValue1 = String(userName);
+// let checkValue = Boolean(isLoggedIn);
 
-console.log(checkValue1);
-console.log(typeof checkValue1)
+// console.log(checkValue);
+
+
+// let userName = 33;
+
+// let checkValue1 = String(userName);
+
+// console.log(checkValue1);
+// console.log(typeof checkValue1)
+
+// const id = Symbol("123");
+
+// const anotherID = Symbol ("123");
+
+// console.log(id == anotherID);
+
+
+//Primitive Data types
+
+// 7types : String, Number, Boolean, Null, Undefined, Symbol, BigInt
+
+// Reference type (Non Primitive)
+
+// Array, Objects, Functions
+
+
+// const bigNumber = 232342342343423n;
+
+// console.log(BigInt)
+
+
+// let myArray = ['Abid','Ali','MAlik','Umar'];
+
+// console.table(myArray);
+
+// let myObj = {
+//     userName: 'Abid Malik',
+//     gmail: 'malikabidzz0306@GMAIL.COM',
+//     age: 19
+// }
+
+// console.table(myObj)
+
+const myFunction = function(){
+    console.log('Hello World');
+}
+
+myFunction()
