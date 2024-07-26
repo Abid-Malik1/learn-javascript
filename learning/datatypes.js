@@ -58,8 +58,33 @@
 
 // console.table(myObj)
 
-const myFunction = function(){
-    console.log('Hello World');
+// const myFunction = function(){
+//     console.log('Hello World');
+// }
+
+// myFunction()
+
+// Stack (Primitive) Heap (Non-Primitive)
+
+let myYotubeMain = "codewithBot";
+
+let anotherName = myYotubeMain;
+
+anotherName = "codewithBot2";
+
+console.log(anotherName);
+console.log(myYotubeMain);
+
+let userOne = {
+    Name: "Abid Malik",
+    Age: 19,
+    class: "12th",
+
 }
 
-myFunction()
+let userTwo = userOne;
+
+userTwo.Name = "Ali";
+
+console.log(userTwo);
+console.log(userOne);
